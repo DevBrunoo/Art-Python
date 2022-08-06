@@ -1,0 +1,5 @@
+Arquivo para ter base do projeto
+
+Esse e um projeto que e um quadro de artes.
+
+1) Include e para colocar uma biblioteca algo ensencial para codificar
