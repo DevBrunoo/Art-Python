@@ -23,7 +23,10 @@ Turtle e a biblioteca responsavel por mondular as cores em formato de desenho ou
 turtle.Screen().bgcolor("black") e usado para dar a cor preta no fundo
 t.pensize(2) esse e um metodo utilizado para definir a largura da linha
 t.spreed(0) e para definir o tempo
-t.forward e responsavel por mover a tartaruga para frene
+t.forward e responsavel por mover a tartaruga para frente
 t.right e usado para dar movimento a tartaruga
 pencolor e para mudar as cores
+for e como se fosse um do wille do JS, aonde python ira aplicar mudancas sucessivamente
+Range e uma funcao aonde comeca com 0 e incrementa 1 sucessivamente
+
 '''

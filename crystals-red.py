@@ -1,13 +1,13 @@
 import turtle
 import colorsys
 t = turtle.Turtle()
-turtle.Screen().bgcolor("DarkSlateGray")
+turtle.Screen().bgcolor("black")
 t.pensize(2)
 t.speed(0)
-n = 37
+n = 36
 h = 0
 for i in range(90):
-    c = colorsys.rgb_to_hsv(0.250, 0.235, 0.250)
+    c = colorsys.hsv_to_rgb(h,1,0.9)
     h+=1/n
     t.pencolor(c)
     for j in range(5):
@@ -16,5 +16,3 @@ for i in range(90):
         t.left(8)
     t.right(115)
 turtle.done()
-
-
